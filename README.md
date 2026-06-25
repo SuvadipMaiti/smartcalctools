@@ -4,6 +4,7 @@ A comprehensive online calculator platform that provides a wide range of health,
 
 From fitness tracking to financial planning, SmartCalcTools offers easy-to-use calculators with instant results and a clean, responsive user experience.
 
+
 Features
 ⚖️ BMI (Body Mass Index) Calculator
 🔥 BMR (Basal Metabolic Rate) Calculator

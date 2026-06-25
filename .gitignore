@@ -16,6 +16,9 @@ client/.env
 client/.env.local
 client/.env.production
 client/.env.development
+client/server/node_modules
+
+
 
 # Vite Cache
 client/.vite
