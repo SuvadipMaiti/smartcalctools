@@ -1,0 +1,22 @@
+
+// const dateString = 'Thu, 18 Apr 2024 15:08:56 +0530';
+// const dateString = 'Thu, 18 Apr 2024 14:25:01 GMT';
+// const dateString = 'Thursday, April 18, 2024, 15:46 GMT +5:30';
+// const dateString = '2024-04-18T16:07:42+05:30';
+// const dateString = 'Thu, 18 Apr 2024 04:00:00 EDT';  
+
+// const parsedDate = moment.tz(dateString, 'ddd, DD MMM YYYY HH:mm:ss Z', 'UTC').utc();
+// const parsedDate = moment.tz(dateString, 'ddd, DD MMM YYYY HH:mm:ss z', 'Asia/Kolkata').utc();
+// const parsedDate = moment.tz(dateString, 'dddd, MMMM DD, YYYY, HH:mm [GMT] Z', 'Asia/Kolkata').utc();
+// const parsedDate = moment.tz(dateString, 'YYYY-MM-DDTHH:mm:ssZ', 'UTC').utc();
+// const parsedDate = moment.tz(dateString, 'ddd, DD MMM YYYY HH:mm:ss z', 'America/New_York').utc();
+
+const utcFormattedDate = parsedDate.format('YYYY-MM-DD HH:mm:ss');
+
+console.log(utcFormattedDate);
+//2024-04-18 09:38:56
+// 2024-04-18 08:55:01
+//2024-04-18 03:59:58
+//2024-04-18 10:37:42
+//2024-04-18 08:00:00
+  //........................................................................

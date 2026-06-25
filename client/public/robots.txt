@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /contact
+Sitemap: https://admin.smartcalctools.online/api/sitemap/sitemap.xml
+Sitemap: https://admin.smartcalctools.online/api/sitemap/sitemap-collection.xml
+Sitemap: https://admin.smartcalctools.online/api/sitemap/sitemap-calculator.xml
